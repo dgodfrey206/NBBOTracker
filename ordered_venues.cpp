@@ -1,3 +1,5 @@
+#include "ordered_venues.hpp"
+
 void OrderedVenues::clear()
 {
   std::memset(venues_, 0, sizeof venues_);
